@@ -1,0 +1,22 @@
+What is DelayScreenSaver?
+=========================
+
+DelayScreenSaver is a menu app written in Objective-C and is used for delaying
+OS X screensavers. 
+
+It allows you to delay a screensaver for 15, 30, 45, 60, or 75 minutes.
+
+Usage:
+======
+Simply launch the application then look for a blue clock icon located on your finder menu bar.
+Right-click the icon to set delays.
+
+Requirements:
+=============
+
+Building:
+- Xcode
+- 10.6 SDK
+
+Running the app:
+- Mac OS X 10.5+
