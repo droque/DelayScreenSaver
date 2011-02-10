@@ -171,7 +171,7 @@
 	Exits application.
  */
 - (IBAction)exitMenu:(id)sender {
-	exit(0);
+	[NSApp terminate:nil];
 }
 
 /**
@@ -179,6 +179,10 @@
  */
 - (void)dealloc {
 	[statusItem release];
+	[statusMenu release];
+	[mExitMenu release];
+	[mRemainingTime release];
+	[mScreenSaverTime release];
 	[super dealloc];
 }
 
